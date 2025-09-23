@@ -56,7 +56,7 @@ body {
 .home-img {
   height: 700px;
   width: 700px;
-  background: url(/Images/home.png) no-repeat center/cover;
+  background: url(./Images/home.png) no-repeat center/cover;
   border-radius: 12px;
 }
 
@@ -144,7 +144,7 @@ strong {
 .processor-detail div {
   flex: 1 1 400px;
   height: 400px;
-  background: url(/Images/chip.png) no-repeat center/cover;
+  background: url(./Images/chip.png) no-repeat center/cover;
   border-radius: 12px;
 }
 
@@ -180,7 +180,7 @@ strong {
 }
 
 .camera-detail .img {
-  background: url(/Images/camera.png) no-repeat center/cover;
+  background: url(./Images/camera.png) no-repeat center/cover;
   height: 600px;
   width: 100%;
 }
@@ -211,7 +211,7 @@ strong {
 }
 
 .battry-detail .img {
-  background: url(/Images/camera.png) no-repeat center/cover;
+  background: url(./Images/camera.png) no-repeat center/cover;
   height: 600px;
   width: 100%;
   border-radius: 12px;
@@ -242,7 +242,7 @@ strong {
 }
 
 .display-detail img {
-  background: url(/Images/display.png) no-repeat center/cover;
+  background: url(./Images/display.png) no-repeat center/cover;
   height: 800px;
   width: 100%; 
   border-radius: 12px;
@@ -255,7 +255,7 @@ strong {
 }
 
 .color-img {
-  background-image: url(/Images/orange.png);
+  background-image: url(./Images/orange.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;          /* image full width */
