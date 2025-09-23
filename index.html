@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IPHONE 17 - Tech Product</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
@@ -12,8 +14,7 @@
         <a class="nav-link" href="#section-1">Home</a>
         <a class="nav-link" href="#section-2">Features</a>
         <a class="nav-link" href="#section-3">Testimonials</a>
-        <a class="nav-link" href="#section-4">Pricing</a>
-        <a class="nav-link" href="#section-5">CTA (Call to Action)</a>
+        <a class="nav-link" href="#section-4">Pricing</a> 
       </div>
     </div>
     <div class="content">
@@ -21,11 +22,11 @@
       <div class="home">
         <div class="home-text">
           <h1>Experience the Future with <strong>iPhone 17</strong></h1>
-          <button class="buy">Buy/Pre-Order</button>
+          <a href="#section-4"><button class="buy">Buy/Pre-Order</button></a>
         </div>
         <div class="home-img"></div>
       </div>
-      <h4 id="section-2">Section-2</h4>
+      <h4 id="section-2"></h4>
       <div class="Features">
         <h1>
           Meet the iPhone 17 Pro and Pro Max — Apple’s most powerful and
@@ -83,17 +84,104 @@
         </div>
       </div>
       <div class="color">
-           <div class="color-btn">
-              <button id="orange" onclick="orange()"></button>
-              <button id="blue" onclick="blue()"></button>
-              <button id="white" onclick="white()"></button>
-           </div>
-      <div class="color-img"></div>
+        <div class="color-btn">
+          <button id="orange" onclick="orange()"></button>
+          <button id="blue" onclick="blue()"></button>
+          <button id="white" onclick="white()"></button>
+        </div>
+        <div class="color-img"></div>
       </div>
+      <h4 id="section-3"></h4>
+      <div class="fake-reviews">
+        <div class="comment-box">
+          <b>Comment</b>
+          <hr />
+<div class="comment-bubble">
+  <p>
+    The transparent back design on iPhone 17 honestly blew my mind 🤯. 
+    Apple finally did something bold, and it feels futuristic every time I look at it ✨. --David jonson
+  </p>
+</div>
 
-      <h4 id="section-3">section-3</h4>
-      <h4 id="section-4">Section-4</h4>
-      <h4 id="section-5">Sectoin-5</h4>
+<div class="comment-bubble">
+  <p>
+    The bigger camera bump looks kind of weird at first 😅, 
+    but I think people will get used to it quickly 📸. --Marry bengimun
+  </p>
+</div>
+
+<div class="comment-bubble">
+  <p>
+    I’ve been reading about the battery performance 🔋, 
+    and if it actually lasts close to two full days on normal use, that would be a massive upgrade for me 🚀. --collaypie
+  </p>
+</div>
+
+<div class="comment-bubble">
+  <p>
+    The only thing that scares me is the price tag 💸, 
+    but honestly this model feels so tempting that skipping it will be hard ❤️. --stark milson
+  </p>
+</div>
+
+          <div id="new-comment"></div>
+          <div class="action-bar">
+            <button class="commit-btn" onclick="addComment()">
+              ➕ Add Comment
+            </button>
+            <button>👍 Like</button>
+            <button>↗️ Share</button>
+          </div>
+        </div>
+      </div>
+      <h4 id="section-4"></h4>
+      <div class="card">
+        <div class="card-1" id="card-box">
+          <div class="badge-box"><div class="badge">20% Off</div></div>  
+          <div class="price-box"><h1>₨ 542,000/-</h1></div>
+          <div class="buy-btn"  id="card-3"><button>Buy Now!</button></div>
+          <div class="list">
+            <ul>
+                <li>Titanium frame with ceramic shield.</li>
+                <li>52GB storage, with enhanced optimization.</li>
+                <li>Deep blue finish with diamond-cut edges.</li>
+                <li>ProMotion 120Hz display with ultra-smooth scrolling</li>
+                <li> NO satellite connectivity for emergency</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-2" id="card-box">
+       <div class="badge-box"><div class="badge">10% Off</div></div>
+          <div class="price-box"><h1>₨ 748,500/-</h1></div>
+          <div class="buy-btn"><button>BUY/Premium</button></div>
+          <div class="list">
+            <ul>
+                <li>Titanium frame with <strong>Extra Cover</strong></li>
+                <li> <strong>2TB</strong> storage, with enhanced optimization.</li>
+                <li>Deep camel finish with diamond-cut edges.</li>
+                <li>ProMotion <strong>120Hz</strong> display with ultra-smooth scrolling</li>
+                <li><strong>satellite</strong> connectivity for emergency</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-3" id="card-box">
+      <div class="badge-box"><div class="badge">15% Off</div></div>
+          <div class="price-box"><h1>₨ 611,500/-</h1></div>
+          <div class="buy-btn" id="card-3"><button>Buy Now!</button></div>
+          <div class="list">
+            <ul>
+                <li>Titanium frame with ceramic shield.</li>
+                <li>1TB storage, with enhanced optimization.</li>
+                <li>Deep black finish with diamond-cut edges.</li>
+                <li>ProMotion 120Hz display with ultra-smooth scrolling</li>
+                <li> Less satellite connectivity for emergency</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h4 id="section-5"></h4>
     </div>
 
     <script src="/Task.js"></script>
