@@ -514,13 +514,12 @@ text-align: start;
     color: rgb(40, 40, 40);
 }
 
-.last{margin-top: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.last img{
+.last{
+  margin-top: 100px;   
   height: 500px;
   width: 100%;
-
+  background-image: url(./Images/last.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+ 
