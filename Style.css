@@ -29,7 +29,11 @@ body {
   width: 800px;
   height: 60px; 
 }
-
+ @media (max-width:678px) {
+  .nav-link{
+    width: 400px; 
+  }
+  }
 .nav-link { 
   text-decoration: none;
   font-size: 20px;
@@ -53,14 +57,25 @@ body {
   text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);  
   font-size: 60px;
 }
-
+ @media (max-width:678px) {
+  .home-text{ 
+    margin-top: 100px;
+  }
+  .home-text h1 {
+    font-size: 40px;
+  }
+  }
 .home-img {
   height: 700px;
   width: 700px;
   background: url(./Images/home.webp) no-repeat center/cover;
   border-radius: 12px;
 }
-
+ @media (max-width:678px) {
+  .home-img{
+    background-size: contain;
+  }
+  }
 /* Gradient strong */
 strong {
   text-shadow: none;
@@ -103,7 +118,12 @@ strong {
   width: 700px; 
   font-size: 60px;
 }
-
+ @media (max-width:678px) {
+  .Features h1{
+    font-size: 40px;
+    width: 800px;
+  }
+  }
 /* Video Section */
 .F-video-box {
   display: flex;
@@ -129,11 +149,15 @@ strong {
   color: aqua;
   margin-bottom: 20px;
 }
-
+  
 .processor p { 
   margin: 10px 0;
 }
-
+ @media (max-width:678px) {
+  .processor p{
+    font-size: 20px;
+  }
+  }
 .processor-detail { 
   display: flex;
   align-items: center;
@@ -170,14 +194,20 @@ strong {
   text-align: center;
 }
 
-.camera-detail h1 { 
+.camera-detail h1 {
+  
   margin-bottom: 20px;
   color: aqua;
 }
-
+ @media (max-width:678px) {
+   
+.camera-detail h3{
+font-size: 30px;
+}
+  }
 .camera-detail h3 { 
-  margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 65px; 
+  margin-bottom: 30px; 
 }
 
 .camera-detail .img {
@@ -373,7 +403,12 @@ background-color: rgb(255, 255, 255)
     align-items: center;
     justify-content: space-evenly;
 }
- 
+ @media (max-width:678px) {
+  .card{
+    display: grid;
+    gap: 10px;
+  }
+ }
 
 #card-box{
     height: 600px;
