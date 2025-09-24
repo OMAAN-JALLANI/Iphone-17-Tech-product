@@ -18,8 +18,7 @@ body {
   width: 100%; 
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: fixed;
+  justify-content: center; 
 }
 
 .nav-items {
@@ -152,6 +151,7 @@ strong {
   
 .processor p { 
   margin: 10px 0;
+  font-size: 65px;
 }
  @media (max-width:678px) {
   .processor p{
@@ -494,6 +494,10 @@ text-align: start;
     border: 1px solid orange;
     box-shadow: 0px 3px 40px orange;
     animation: float 3s infinite;
+    transition: transform 0.3s ease-in-out;
+}
+.card-2:hover{
+  transform: scale(1.1) rotate(5deg);
 }
 @keyframes float {
   0% { transform: translateY(0px); }
@@ -512,14 +516,5 @@ text-align: start;
 #card-3 button:hover{
     background-color:rgb(121, 119, 119) ;
     color: rgb(40, 40, 40);
-}
-
-.last{
-  margin-top: 100px;   
-  height: 500px;
-  width: 100%;
-  background-image: url(./Images/last.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
  
