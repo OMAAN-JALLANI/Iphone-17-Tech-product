@@ -513,5 +513,13 @@ text-align: start;
     background-color:rgb(121, 119, 119) ;
     color: rgb(40, 40, 40);
 }
- 
+
+.last{
+  margin-top: 100px;   
+  height: 500px;
+  width: 100%;
+  background-image: url(./Images/last.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
  
